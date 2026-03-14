@@ -14,7 +14,7 @@ export default function Home() {
           Trading Assistants
         </h1>
         <p className="text-gray-400 text-lg max-w-md">
-          Analyze MrBeast video mentions and optimize your strategy
+          Utilize these trading assistants to optimize your strategy and turn a profit!
         </p>
       </div>
 
