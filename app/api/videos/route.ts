@@ -1,28 +1,74 @@
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import fs from "fs";
+import path from "path";
+
+type Video = {
+  title: string;
+  date: string;
+  type: string;
+  words: Record<string, boolean>;
+};
+
+const filePath = path.join(process.cwd(), "app/data/mrbeast.json");
+
+function ensureFile() {
+  if (!fs.existsSync(filePath)) {
+    fs.writeFileSync(filePath, JSON.stringify([], null, 2));
+  }
+}
+
+function readVideos(): Video[] {
+  ensureFile();
+  const data = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(data);
+}
+
+function writeVideos(videos: Video[]) {
+  fs.writeFileSync(filePath, JSON.stringify(videos, null, 2));
+}
 
 export async function GET() {
-  const client = supabase(); // call it at runtime
-  const { data, error } = await client.from("videos").select("*");
-
-  if (error) {
-    console.error(error);
-    return NextResponse.json([], { status: 500 });
+  try {
+    const videos = readVideos();
+    return NextResponse.json(videos);
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Failed to load videos" },
+      { status: 500 }
+    );
   }
-
-  return NextResponse.json(data);
 }
 
 export async function POST(req: Request) {
-  const client = supabase(); // call it at runtime
-  const newVideo = await req.json();
+  try {
+    const body = await req.json();
+    const { title, type, date, words } = body;
 
-  const { error } = await client.from("videos").insert([newVideo]);
+    if (!title || !type || !date || !words) {
+      return NextResponse.json(
+        { error: "Missing required fields" },
+        { status: 400 }
+      );
+    }
 
-  if (error) {
-    console.error(error);
-    return NextResponse.json({ error: "Failed to save video" }, { status: 500 });
+    const videos = readVideos();
+
+    if (videos.some((v) => v.title.toLowerCase() === title.toLowerCase())) {
+      return NextResponse.json(
+        { error: "Video already exists" },
+        { status: 400 }
+      );
+    }
+
+    const newVideo: Video = { title, type, date, words };
+    videos.push(newVideo);
+    writeVideos(videos);
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Failed to save video" },
+      { status: 500 }
+    );
   }
-
-  return NextResponse.json({ success: true });
 }
