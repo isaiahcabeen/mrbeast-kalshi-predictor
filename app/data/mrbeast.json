@@ -3,1122 +3,772 @@
     "title": "Survive 30 Days Stranded With Your Ex, Win $250k",
     "type": "Endurance",
     "date": "2026-03-07",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": false,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Win",
+      "Contestant",
+      "Prize",
+      "Subscribe"
+    ]
   },
   {
     "title": "I Built 10 Schools Around The World",
     "type": "Philanthropy",
     "date": "2026-02-21",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Feastable",
+      "Water",
+      "Car"
+    ]
   },
   {
     "title": "Ages 1-100 Race For $250,000!",
     "type": "Competition",
     "date": "2026-02-07",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Prize",
+      "Car"
+    ]
   },
   {
     "title": "$1 vs $1 Billion Futuristic Tech",
     "type": "Comparison",
     "date": "2026-01-24",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": false,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "30 Celebs Fight For $1 Million",
     "type": "Competition",
     "date": "2026-01-07",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Beast",
+      "Contestant",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "Survive 30 Days Trapped In The Sky, Win $250k",
     "type": "Endurance",
     "date": "2025-12-20",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": false,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Contestant",
+      "Prize",
+      "Subscribe"
+    ]
   },
   {
     "title": "100 Pilots Fight For A Private Jet",
     "type": "Competition",
     "date": "2025-12-06",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": true
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Win",
+      "Beast",
+      "Contestant",
+      "Prize",
+      "Car",
+      "Saudi Arabia"
+    ]
   },
   {
     "title": "Strongest Man vs Robot",
     "type": "Competition",
     "date": "2025-11-22",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Win",
+      "Beast",
+      "Car"
+    ]
   },
   {
     "title": "100 People vs Trap",
     "type": "Competition",
     "date": "2025-11-08",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Contestant",
+      "Subscribe"
+    ]
   },
   {
     "title": "Saved 1000 Animals",
     "type": "Philanthropy",
     "date": "2025-10-25",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": true,
-      "Win": false,
-      "Feastable": false,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Money",
+      "Water",
+      "Car"
+    ]
   },
   {
     "title": "100 Kids vs Strongest Man",
     "type": "Competition",
     "date": "2025-10-11",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Subscribe"
+    ]
   },
   {
     "title": "Risk Dying For $500k",
     "type": "Endurance",
     "date": "2025-09-27",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Water",
+      "Insane",
+      "Prize",
+      "Subscribe"
+    ]
   },
   {
     "title": "Survive Chained To Ex",
     "type": "Endurance",
     "date": "2025-09-13",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Prize",
+      "Car",
+      "Subscribe"
+    ]
   },
   {
     "title": "$1 vs $1 Billion Bunker",
     "type": "Comparison",
     "date": "2025-08-30",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": true,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Insane",
+      "Billion",
+      "Subscribe"
+    ]
   },
   {
     "title": "Survive 100 Days In Prison",
     "type": "Endurance",
     "date": "2025-08-16",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Prize"
+    ]
   },
   {
     "title": "Fastest Car vs Cheetah",
     "type": "Competition",
     "date": "2025-08-02",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Win",
+      "Beast",
+      "Insane",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "Lose 100 LBs, Win $250k",
     "type": "Endurance",
     "date": "2025-07-19",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Insane",
+      "Prize"
+    ]
   },
   {
     "title": "$1 vs $500k Date",
     "type": "Comparison",
     "date": "2025-07-05",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": false,
-      "Money": false,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": false,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": true,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Win",
+      "Feastable",
+      "Insane",
+      "Prize",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "Beat Neymar, Win $500k",
     "type": "Competition",
     "date": "2025-06-21",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Contestant",
+      "Car",
+      "Billion",
+      "Subscribe"
+    ]
   },
   {
     "title": "100 Hours In Temple",
     "type": "Exploration",
     "date": "2025-06-07",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": false,
-      "Money": false,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Win",
+      "Feastable",
+      "Water",
+      "Insane",
+      "Subscribe"
+    ]
   },
   {
     "title": "Risk Drowning For $500k",
     "type": "Endurance",
     "date": "2025-05-24",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Car"
+    ]
   },
   {
     "title": "Click This Video To Feed",
     "type": "Philanthropy",
     "date": "2025-05-10",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": true,
-      "Win": false,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Money",
+      "Feastable",
+      "Water"
+    ]
   },
   {
     "title": "I Survived 5 Deadly Places",
     "type": "Exploration",
     "date": "2025-04-26",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": false,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": false,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "Last To Leave Circle Wins $500k",
     "type": "Competition",
     "date": "2025-04-12",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Contestant",
+      "Billion"
+    ]
   },
   {
     "title": "100 Hours In Pyramids",
     "type": "Exploration",
     "date": "2025-03-29",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Feastable",
+      "Beast",
+      "Insane"
+    ]
   },
   {
     "title": "Every Minute 1 Person Is Eliminated",
     "type": "Competition",
     "date": "2025-03-15",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": true,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Contestant",
+      "Prize",
+      "Billion",
+      "Subscribe"
+    ]
   },
   {
     "title": "I Helped 2000 People Walk",
     "type": "Philanthropy",
     "date": "2025-03-01",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": false,
-      "Beast": false,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money"
+    ]
   },
   {
     "title": "2000 People Fight For $5 Million",
     "type": "Competition",
     "date": "2025-02-15",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Prize"
+    ]
   },
   {
     "title": "Beat Ronaldo, Win $1 Million",
     "type": "Competition",
     "date": "2025-02-01",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Money",
+      "Win",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Prize",
+      "Car",
+      "Billion",
+      "Subscribe"
+    ]
   },
   {
     "title": "$1 vs $500k Experiences",
     "type": "Comparison",
     "date": "2025-01-18",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Insane",
+      "Car"
+    ]
   },
   {
     "title": "7 Days In Underground City",
     "type": "Exploration",
     "date": "2025-01-04",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Insane"
+    ]
   },
   {
     "title": "100 Identical Twins For $250k",
     "type": "Competition",
     "date": "2024-12-21",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Contestant",
+      "Prize"
+    ]
   },
   {
     "title": "Men vs Women Wild $500k",
     "type": "Competition",
     "date": "2024-12-07",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Prize"
+    ]
   },
   {
     "title": "7 Days In Cave",
     "type": "Exploration",
     "date": "2024-11-23",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Insane"
+    ]
   },
   {
     "title": "100 Days In Bunker, $500k",
     "type": "Endurance",
     "date": "2024-11-09",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Contestant",
+      "Insane",
+      "Prize",
+      "Car"
+    ]
   },
   {
     "title": "50 YouTubers For $1 Million",
     "type": "Competition",
     "date": "2024-10-26",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Contestant",
+      "Prize",
+      "Billion"
+    ]
   },
   {
     "title": "I Built 100 Houses And Gave",
     "type": "Philanthropy",
     "date": "2024-10-12",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Feastable",
+      "Water"
+    ]
   },
   {
     "title": "Deadliest Obstacle Courses",
     "type": "Endurance",
     "date": "2024-09-28",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Contestant",
+      "Insane"
+    ]
   },
   {
     "title": "$10k Every Day In Wild",
     "type": "Endurance",
     "date": "2024-09-14",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Prize",
+      "Subscribe"
+    ]
   },
   {
     "title": "Protect The Yacht",
     "type": "Endurance",
     "date": "2024-08-31",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": false,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": true,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Win",
+      "Beast",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Subscribe"
+    ]
   },
   {
     "title": "10 Minutes Room Will Explode",
     "type": "Endurance",
     "date": "2024-08-17",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water"
+    ]
   },
   {
     "title": "Ages 1-100 Decide $250k",
     "type": "Competition",
     "date": "2024-08-03",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": false,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Contestant",
+      "Prize"
+    ]
   },
   {
     "title": "7 Days Stranded On Island",
     "type": "Exploration",
     "date": "2024-07-20",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Feastable",
+      "Beast",
+      "Water"
+    ]
   },
   {
     "title": "Stop Train, Win Lamborghini",
     "type": "Endurance",
     "date": "2024-07-06",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Contestant",
+      "Prize",
+      "Car"
+    ]
   },
   {
     "title": "7 Days In Abandoned City",
     "type": "Exploration",
     "date": "2024-06-22",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": false,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Insane"
+    ]
   },
   {
     "title": "Face Fear To Win $800k",
     "type": "Endurance",
     "date": "2024-06-08",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": true,
-      "Feastable": true,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Win",
+      "Feastable",
+      "Water",
+      "Contestant",
+      "Prize",
+      "Car",
+      "Billion"
+    ]
   },
   {
     "title": "$1 vs $250 Million Island",
     "type": "Comparison",
     "date": "2024-05-25",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": true,
-      "Win": false,
-      "Feastable": false,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": true,
-      "Prize": false,
-      "Car": false,
-      "Billion": true,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Money",
+      "Beast",
+      "Water",
+      "Insane",
+      "Billion"
+    ]
   },
   {
     "title": "Protect $500k, Keep It",
     "type": "Endurance",
     "date": "2024-05-11",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": true,
-      "Beast": true,
-      "Water": true,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": false,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Feastable",
+      "Beast",
+      "Water",
+      "Car"
+    ]
   },
   {
     "title": "7 Days In Solitary Confinement",
     "type": "Endurance",
     "date": "2024-04-27",
-    "words": {
-      "Time": true,
-      "Million": false,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": false,
-      "Beast": false,
-      "Water": true,
-      "Contestant": true,
-      "Insane": true,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Challenge",
+      "Money",
+      "Water",
+      "Contestant",
+      "Insane",
+      "Prize"
+    ]
   },
   {
     "title": "Adopted 100 Dogs",
     "type": "Philanthropy",
     "date": "2024-04-13",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": false,
-      "Money": true,
-      "Win": true,
-      "Feastable": false,
-      "Beast": true,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": true,
-      "Car": true,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Money",
+      "Win",
+      "Beast",
+      "Prize",
+      "Car"
+    ]
   },
   {
     "title": "100 Days Trapped, $500k",
     "type": "Endurance",
     "date": "2024-03-30",
-    "words": {
-      "Time": true,
-      "Million": true,
-      "Challenge": true,
-      "Money": true,
-      "Win": false,
-      "Feastable": true,
-      "Beast": false,
-      "Water": false,
-      "Contestant": false,
-      "Insane": false,
-      "Prize": true,
-      "Car": false,
-      "Billion": false,
-      "Subscribe": false,
-      "Saudi Arabia": false
-    }
+    "words": [
+      "Time",
+      "Million",
+      "Challenge",
+      "Money",
+      "Feastable",
+      "Prize"
+    ]
   }
 ]

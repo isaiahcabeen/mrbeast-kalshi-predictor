@@ -8,7 +8,7 @@ export type Video = {
   title: string;
   date: string;
   type: string;
-  words: Record<string, boolean>;
+  words: string[];
 };
 
 export type WordPrediction = {
@@ -79,7 +79,7 @@ function calculateConsistency(videos: Video[], word: string) {
   for (let i = 0; i < videos.length; i += chunkSize) {
     const chunk = videos.slice(i, i + chunkSize);
 
-    const appearances = chunk.filter((v) => v.words[word]).length;
+    const appearances = chunk.filter((v) => v.words.includes(word)).length;
 
     chunks.push(appearances / chunk.length);
   }
@@ -301,7 +301,7 @@ export function calculateProbabilities(
         -config.DECAY_LAMBDA * ageDays
       );
 
-      if (video.words[word]) {
+      if (video.words.includes(word)) {
         weightedYes += weight;
       }
 
@@ -322,7 +322,7 @@ export function calculateProbabilities(
       if (typeVideos.length >= config.MIN_TYPE_VIDEOS) {
 
         const typeYes =
-          typeVideos.filter((v) => v.words[word]).length;
+          typeVideos.filter((v) => v.words.includes(word)).length;
 
         const typeAlpha = typeYes + 1;
         const typeBeta = typeVideos.length - typeYes + 1;
