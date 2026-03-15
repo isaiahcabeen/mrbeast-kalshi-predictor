@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Top Strip – thin decorative bar */}
-      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 py-[26px] px-4" />
+      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 py-[35px] px-4" />
 
       {/* Title Section */}
       <div className="px-4 pt-8 pb-4 text-center">
