@@ -8,7 +8,7 @@ type Video = {
   title: string;
   date: string;
   type: string;
-  words: Record<string, boolean>;
+  words: string[];
 };
 
 interface WordPredictionResponse {
@@ -100,7 +100,7 @@ export async function GET(req: Request) {
 
     const appearanceRates = WORDS.reduce(
       (acc, word) => {
-        const count = videos.filter((v) => v.words[word]).length;
+        const count = videos.filter((v) => v.words.includes(word)).length;
         acc[word] = (count / videos.length) * 100;
         return acc;
       },
@@ -229,7 +229,7 @@ export async function POST(req: Request) {
           recentBias: 0,
           effectiveSampleSize: 0,
         },
-        appearanceRate: (videos.filter(v => v.words[word]).length / videos.length) * 100,
+        appearanceRate: (videos.filter(v => v.words.includes(word)).length / videos.length) * 100,
         marketPrice,
         expectedValue: recommendation.expectedValue,
         action: recommendation.action,

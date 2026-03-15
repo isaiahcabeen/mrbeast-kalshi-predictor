@@ -6,7 +6,7 @@ type Video = {
   title: string;
   date: string;
   type: string;
-  words: Record<string, boolean>;
+  words: string[];
 };
 
 const filePath = path.join(process.cwd(), "app/data/mrbeast.json");
