@@ -106,14 +106,14 @@ export default function MrBeastHome() {
             placeholder="Search words..."
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none focus:border-green-500 transition-colors"
+            className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-500 placeholder-gray-400"
           />
         </div>
 
         {/* Stats Grid */}
         <section>
 
-          <h2 className="text-2xl font-bold mb-6 text-gray-100">
+          <h2 className="text-2xl font-bold mb-6 text-black">
             Word Probabilities
           </h2>
 
