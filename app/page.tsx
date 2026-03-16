@@ -66,10 +66,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between relative">
+      <header className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-[1fr_auto_1fr] items-center gap-6">
           {/* Left nav: Markets, Strategies, Data */}
-          <nav className="flex items-center gap-8">
+          <nav className="flex items-center gap-6 justify-end">
             <Link href="/#markets" className="nav-link">
               Markets
             </Link>
@@ -82,18 +82,16 @@ export default function Home() {
           </nav>
 
           {/* Centered Logo */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <Link href="/">
-              <img
-                src={BULLISH_SIGNALS_LOGO_URL}
-                alt="Bullish Signals"
-                style={{ width: "97px", height: "56px" }}
-              />
-            </Link>
-          </div>
+          <Link href="/">
+            <img
+              src={BULLISH_SIGNALS_LOGO_URL}
+              alt="Bullish Signals"
+              style={{ width: "97px", height: "56px" }}
+            />
+          </Link>
 
           {/* Right nav: About, FAQ */}
-          <nav className="flex items-center gap-8">
+          <nav className="flex items-center gap-6">
             <Link href="/about" className="nav-link">
               About
             </Link>
@@ -105,7 +103,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <div id="markets" className="bg-sky-400 px-4 pt-10 pb-10">
+      <div id="markets" className="hero-banner bg-sky-400 px-4 pt-10 pb-10">
         {/* Title Section */}
         <div className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow pb-2">
