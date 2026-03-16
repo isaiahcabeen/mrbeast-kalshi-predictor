@@ -67,9 +67,9 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-[1fr_auto_1fr] items-center gap-6">
+        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           {/* Left nav: Markets, Strategies, Data */}
-          <nav className="flex items-center gap-6 justify-end">
+          <nav className="flex items-center gap-12">
             <Link href="/#markets" className="nav-link">
               Markets
             </Link>
@@ -91,7 +91,7 @@ export default function Home() {
           </Link>
 
           {/* Right nav: About, FAQ */}
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-12">
             <Link href="/about" className="nav-link">
               About
             </Link>
@@ -128,7 +128,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="px-4 py-6 flex flex-col gap-6 max-w-2xl">
+      <div className="px-4 py-6 flex flex-col gap-6 max-w-2xl mx-auto">
         {filteredAssistants.map((assistant) => (
           <div
             key={assistant.route}
