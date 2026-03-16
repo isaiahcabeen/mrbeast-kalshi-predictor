@@ -5,35 +5,33 @@ export default function StrategiesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between relative">
-          <nav className="flex items-center gap-8">
+      <header className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-[1fr_auto_1fr] items-center gap-6">
+          <nav className="flex items-center gap-6 justify-end">
             <Link href="/#markets" className="nav-link">Markets</Link>
             <Link href="/strategies" className="nav-link">Strategies</Link>
             <Link href="/data" className="nav-link">Data</Link>
           </nav>
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <Link href="/">
-              <img
-                src={BULLISH_SIGNALS_LOGO_URL}
-                alt="Bullish Signals"
-                style={{ width: "97px", height: "56px" }}
-              />
-            </Link>
-          </div>
-          <nav className="flex items-center gap-8">
+          <Link href="/">
+            <img
+              src={BULLISH_SIGNALS_LOGO_URL}
+              alt="Bullish Signals"
+              style={{ width: "97px", height: "56px" }}
+            />
+          </Link>
+          <nav className="flex items-center gap-6">
             <Link href="/about" className="nav-link">About</Link>
             <Link href="/faq" className="nav-link">FAQ</Link>
           </nav>
         </div>
       </header>
 
-      {/* Hero */}
-      <div className="bg-sky-400 px-4 pt-12 pb-10 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow pb-2">
+      {/* Page Header */}
+      <div className="border-b border-gray-100 px-4 pt-10 pb-8 text-center bg-white">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 pb-2">
           Strategies
         </h1>
-        <p className="text-white text-lg mt-3 max-w-2xl mx-auto">
+        <p className="text-gray-500 text-lg mt-3 max-w-2xl mx-auto">
           Proven methods to profit long-term in the MrBeast Prediction Market on Kalshi.
         </p>
       </div>
@@ -167,7 +165,7 @@ export default function StrategiesPage() {
           </p>
           <Link
             href="/#markets"
-            className="inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold px-8 py-3 rounded-xl transition-colors"
+            className="btn-primary"
           >
             View Markets
           </Link>

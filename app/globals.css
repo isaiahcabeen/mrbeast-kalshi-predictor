@@ -28,13 +28,75 @@ body {
 /* ===== Navigation Link ===== */
 .nav-link {
   font-family: "Open Sans", var(--font-open-sans), Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #374151;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
   text-decoration: none;
-  transition: color 0.15s;
+  letter-spacing: 0.01em;
+  transition: color 0.2s;
 }
 
 .nav-link:hover {
   color: #0369a1;
+}
+
+/* ===== Homepage Hero Banner Wave ===== */
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 150%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255, 255, 255, 0.12) 35%,
+    rgba(255, 255, 255, 0.28) 50%,
+    rgba(255, 255, 255, 0.12) 65%,
+    transparent 100%
+  );
+  animation: wave-flash 20s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes wave-flash {
+  0% {
+    left: -150%;
+  }
+  20% {
+    left: 110%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-banner::after {
+    animation: none;
+  }
+}
+
+/* ===== Primary CTA Button ===== */
+.btn-primary {
+  display: inline-block;
+  background-color: #111827;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  padding: 0.75rem 2.5rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #374151;
 }
