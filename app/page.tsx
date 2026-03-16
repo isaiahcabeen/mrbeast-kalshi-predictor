@@ -64,28 +64,31 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Top Strip */}
-      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 py-[35px] px-4" />
+      <div className="bg-white py-[35px] px-4" />
 
-      {/* Title Section */}
-      <div className="px-4 pt-8 pb-4 text-center">
-        <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent pb-2">
-          Trading Assistants
-        </h1>
-        <p className="text-gray-400 text-lg mt-3">
-          Utilize these trading assistants to optimize your strategy and turn a
-          profit!
-        </p>
-      </div>
+      {/* Hero Section */}
+      <div className="bg-sky-400 px-4 pt-10 pb-10">
+        {/* Title Section */}
+        <div className="text-center">
+          <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow pb-2">
+            Trading Assistants
+          </h1>
+          <p className="text-white text-lg mt-3">
+            Utilize these trading assistants to optimize your strategy and turn a
+            profit!
+          </p>
+        </div>
 
-      {/* Search Box */}
-      <div className="flex justify-center px-4 mt-6">
-        <input
-          type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search events by title..."
-          className="w-full max-w-xl px-4 py-3 border border-gray-300 rounded-lg shadow-sm bg-gray-50 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        {/* Search Box */}
+        <div className="flex justify-center mt-6">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search events by title..."
+            className="w-full max-w-xl px-4 py-3 border border-sky-200 rounded-lg shadow-sm bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
+          />
+        </div>
       </div>
 
       {/* Main Content */}
