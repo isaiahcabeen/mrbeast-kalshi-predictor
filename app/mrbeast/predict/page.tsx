@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, RefreshCw } from "lucide-react";
+import { ArrowLeft, RefreshCw, Clock } from "lucide-react";
 import { getRiskColor } from "@/lib/probability";
 import { BULLISH_SIGNALS_LOGO_URL } from "@/lib/constants";
 
@@ -167,6 +167,8 @@ export default function PredictPage() {
                     ? "bg-yellow-200 animate-pulse"
                     : kalshiError
                     ? "bg-red-200"
+                    : kalshiPrices.length === 0
+                    ? "bg-white/60"
                     : "bg-green-200"
                 }`}
               />
@@ -177,7 +179,9 @@ export default function PredictPage() {
                   ? "Calculating recommendations…"
                   : kalshiError
                   ? "Could not connect to Kalshi"
-                  : lastUpdated && !loadingKalshi
+                  : kalshiPrices.length === 0
+                  ? "Waiting for market to open"
+                  : lastUpdated
                   ? `Live · Updated ${new Date(lastUpdated).toLocaleTimeString()}`
                   : "Live Kalshi Data"}
               </span>
@@ -259,16 +263,28 @@ export default function PredictPage() {
           </div>
         )}
 
-        {/* No markets found */}
+        {/* No markets found — waiting state */}
         {!loadingKalshi && !kalshiError && kalshiPrices.length === 0 && (
           <div className="bg-white border border-gray-200 rounded-2xl p-10 mb-6 text-center shadow-sm">
-            <p className="text-gray-700 font-semibold text-lg mb-2">
-              No MrBeast markets on Kalshi yet
+            <div className="flex justify-center mb-4">
+              <div className="w-16 h-16 bg-sky-50 rounded-full flex items-center justify-center">
+                <Clock className="w-8 h-8 text-sky-400" />
+              </div>
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">
+              No active markets yet
+            </h3>
+            <p className="text-gray-500 text-sm max-w-sm mx-auto mb-6">
+              Kalshi hasn&apos;t opened betting for the next MrBeast video yet.
+              Check back once the market goes live — analysis will appear here automatically.
             </p>
-            <p className="text-sm text-gray-500">
-              Markets will appear here once Kalshi opens betting for the next
-              MrBeast video. Check back closer to the drop!
-            </p>
+            <button
+              onClick={() => router.push("/mrbeast")}
+              className="inline-flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-blue-600 to-blue-500 text-white text-sm font-medium rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back to Dashboard
+            </button>
           </div>
         )}
 
