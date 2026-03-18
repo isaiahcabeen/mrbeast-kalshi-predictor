@@ -98,7 +98,7 @@ export async function POST(req: Request) {
       return {};
     });
     if (body.maxResults && typeof body.maxResults === "number") {
-      maxResults = Math.min(Math.max(1, body.maxResults), 50);
+      maxResults = Math.min(Math.max(1, body.maxResults), 200);
     }
   } catch {
     // use default
