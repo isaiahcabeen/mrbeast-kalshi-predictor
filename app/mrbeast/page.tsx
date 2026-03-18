@@ -55,7 +55,11 @@ export default function MrBeastHome() {
     setSyncResult(null);
     setSyncError(null);
     try {
-      const res = await fetch("/api/sync-latest", { method: "POST" });
+      const res = await fetch("/api/sync-latest", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ maxResults: 100 })
+      });
       const data = await res.json();
       if (!res.ok) {
         setSyncError(data.error ?? "Sync failed");
