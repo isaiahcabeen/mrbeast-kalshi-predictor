@@ -115,8 +115,7 @@ export const MARKETS: MarketConfig[] = [
     kalshiKeywords: ["trump"],
     dataFile: "trump.json",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/56/White_House_Portrait_of_Donald_Trump.jpg",
-    emoji: "🇺🇸",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_House_Portrait_of_Donald_Trump.jpg/440px-White_House_Portrait_of_Donald_Trump.jpg",
   },
 ];
 
