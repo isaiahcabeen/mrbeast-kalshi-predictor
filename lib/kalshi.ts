@@ -168,11 +168,22 @@ function isMrbeastMarket(m: KalshiMarket): boolean {
 export async function fetchKalshiWordPricesForMarket(
   market: MarketConfig
 ): Promise<KalshiMarketPrice[]> {
+  console.log(
+    `[fetchKalshiWordPricesForMarket] Starting fetch for market "${market.id}" with keywords: ${market.kalshiKeywords.join(", ")}`
+  );
+
   if (!credentialsPresent()) return [];
 
   const markets = await fetchMarkets(["open"]);
+  console.log(
+    `[fetchKalshiWordPricesForMarket] Fetched ${markets.length} total open markets from Kalshi`
+  );
+
   const filtered = markets.filter((m) =>
     isMarketForConfig(m, market.kalshiKeywords)
+  );
+  console.log(
+    `[fetchKalshiWordPricesForMarket] ${filtered.length} markets matched keywords for market "${market.id}"`
   );
 
   const wordPriceMap = new Map<string, KalshiMarketPrice>();
@@ -182,6 +193,9 @@ export async function fetchKalshiWordPricesForMarket(
     if (!word) continue;
 
     const price = extractPrice(m);
+    console.log(
+      `[fetchKalshiWordPricesForMarket] Found word "${word}" with price ${price} (ticker: ${m.ticker})`
+    );
 
     if (!wordPriceMap.has(word)) {
       wordPriceMap.set(word, {
@@ -193,7 +207,11 @@ export async function fetchKalshiWordPricesForMarket(
     }
   }
 
-  return Array.from(wordPriceMap.values());
+  const results = Array.from(wordPriceMap.values());
+  console.log(
+    `[fetchKalshiWordPricesForMarket] Returning ${results.length} word price entries for market "${market.id}"`
+  );
+  return results;
 }
 
 export async function fetchKalshiMarketMetadataForMarket(
